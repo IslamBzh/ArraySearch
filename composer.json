@@ -1,0 +1,16 @@
+{
+    "name": "islambzh/array-search",
+    "autoload": {
+        "psr-4": {
+            "Islambzh\\ArraySearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Islam Bzhakhov",
+            "email": "dev.islambzh@ya.ru",
+            "homepage": "https://IslamBzh.t.me"
+        }
+    ],
+    "require": {}
+}
