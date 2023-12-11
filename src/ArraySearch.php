@@ -114,7 +114,7 @@ class ArraySearch
         $params = $keys_params;
         foreach ($params as $key => $keys) {
             if ($callback === true && is_array($keys)) {
-                $callback = $keys[1];
+                $callback = $keys[1] ?? false;
                 $keys = $keys[0];
             } else if ($callback === true) {
                 $callback = $keys;
