@@ -1,16 +1,27 @@
 {
-    "name": "islambzh/array-search",
-    "autoload": {
-        "psr-4": {
-            "Islambzh\\ArraySearch\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Islam Bzhakhov",
-            "email": "dev.islambzh@ya.ru",
-            "homepage": "https://IslamBzh.t.me"
-        }
-    ],
-    "require": {}
+  "name": "islambzh/array-search",
+  "description": "",
+  "type": "library",
+  "keywords": [
+    "array",
+    "php",
+    "search"
+  ],
+  "homepage": "https://github.com/IslamBzh/ArraySearch",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Islambzh\\ArraySearch\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Islam Bzhakhov",
+      "email": "dev.islambzh@ya.ru",
+      "homepage": "https://IslamBzh.t.me"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
 }
